@@ -21,7 +21,8 @@ menu:
   github:
     url: https://github.com/dreamlivemeng
     target: _blank
-  csdn:
+  bookmark-o:
+    text: Csdn
     url: https://blog.csdn.net/dreamlivemeng
     target: _blank
   link:
@@ -125,9 +126,9 @@ gitalk: false
 
 # Valine Comment system. https://valine.js.org
 valine:
-  enable: false # 如果你想使用valine，请将值设置为 true
-  appId:  # your leancloud appId
-  appKey:  # your leancloud appKey
+  enable: true # 如果你想使用valine，请将值设置为 true
+  appId: Vua5kJPIr8Qxbeji3wOp3ftd-gzGzoHsz # your leancloud appId
+  appKey: o23JDACNG2MbSEFNPbBOiuIo  # your leancloud appKey
   notify: false # Mail notify
   verify: false # Verify code
   avatar: mm # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
@@ -150,7 +151,7 @@ canonical: false
 since_year: 2015
 
 # 用户页面中作者相关的描述性文字，如不需要设为 false
-about: 用户页面中作者相关的描述性文字，如不需要设为 false
+about: false
 
 # “不蒜子”访问量统计，详见 http://ibruce.info/2015/04/04/busuanzi/
 visit_counter:
