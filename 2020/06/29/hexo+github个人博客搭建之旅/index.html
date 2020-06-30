@@ -14,7 +14,7 @@
     
     
     
-    <title>hexo+github 个人博客搭建之旅 | Hexo</title>
+    <title>hexo+github 个人博客搭建之旅 | Dreamlivemeng&#39;s Blog | 为了美好生活，加油！！！</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     <meta name="theme-color" content="#3F51B5">
@@ -25,7 +25,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo+github 个人博客搭建之旅">
 <meta property="og:url" content="http://yoursite.com/2020/06/29/hexo+github%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E6%97%85/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="Dreamlivemeng&#39;s Blog">
 <meta property="og:description" content="hexo+github 个人博客搭建之旅 本次搭建博客采用了hexo+github的方式去搭建，记录踩过的坑，避免朋友们再次踩相同的坑。  1、配置需要的环境(基于windows系统)安装git, [下载git](https:&#x2F;&#x2F;git-scm.com&#x2F;) 安装node.js,[下载node.js]https:&#x2F;&#x2F;nodejs.org&#x2F;en&#x2F; 2、搭建hexo环境1.安装Hexo打开cmd命令输入">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-06-29T08:03:42.000Z">
@@ -104,7 +104,7 @@
         
             <li class="waves-block waves-effect">
               <a href="https://blog.csdn.net/dreamlivemeng" target="_blank" >
-                <i class="icon icon-lg icon-csdn"></i>
+                <i class="icon icon-lg icon-bookmark-o"></i>
                 Csdn
               </a>
             </li>
@@ -305,7 +305,7 @@ git命令提交代码
 <div class="page-share" id="pageShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://yoursite.com/2020/06/29/hexo+github%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E6%97%85/&title=《hexo+github 个人博客搭建之旅》 — Hexo&pic=http://yoursite.com/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://yoursite.com/2020/06/29/hexo+github%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E6%97%85/&title=《hexo+github 个人博客搭建之旅》 — Dreamlivemeng's Blog&pic=http://yoursite.com/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -315,7 +315,7 @@ git命令提交代码
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://yoursite.com/2020/06/29/hexo+github%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E6%97%85/&title=《hexo+github 个人博客搭建之旅》 — Hexo&source=" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://yoursite.com/2020/06/29/hexo+github%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E6%97%85/&title=《hexo+github 个人博客搭建之旅》 — Dreamlivemeng's Blog&source=" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
@@ -325,7 +325,7 @@ git命令提交代码
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《hexo+github 个人博客搭建之旅》 — Hexo&url=http://yoursite.com/2020/06/29/hexo+github%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E6%97%85/&via=http://yoursite.com" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《hexo+github 个人博客搭建之旅》 — Dreamlivemeng's Blog&url=http://yoursite.com/2020/06/29/hexo+github%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E6%97%85/&via=http://yoursite.com" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
@@ -383,6 +383,30 @@ git命令提交代码
 
 
 
+
+    <!-- Valine Comments -->
+    <div class="comments vcomment" id="comments"></div>
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+    <!-- Valine Comments script -->
+    <script>
+        var GUEST_INFO = ['nick','mail','link'];
+        var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+          return GUEST_INFO.indexOf(item) > -1
+        });
+        new Valine({
+            el: '#comments',
+            notify: 'false' == 'true',
+            verify: 'false' == 'true',
+            appId: "Vua5kJPIr8Qxbeji3wOp3ftd-gzGzoHsz",
+            appKey: "o23JDACNG2MbSEFNPbBOiuIo",
+            avatar: "mm",
+            placeholder: "Just go go",
+            guest_info: guest_info.length == 0 ? GUEST_INFO : guest_info,
+            pageSize: "10"
+        })
+    </script>
+    <!-- Valine Comments end -->
 
 
 
@@ -462,7 +486,7 @@ git命令提交代码
 <div class="global-share" id="globalShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://yoursite.com/2020/06/29/hexo+github%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E6%97%85/&title=《hexo+github 个人博客搭建之旅》 — Hexo&pic=http://yoursite.com/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://yoursite.com/2020/06/29/hexo+github%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E6%97%85/&title=《hexo+github 个人博客搭建之旅》 — Dreamlivemeng's Blog&pic=http://yoursite.com/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -472,7 +496,7 @@ git命令提交代码
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://yoursite.com/2020/06/29/hexo+github%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E6%97%85/&title=《hexo+github 个人博客搭建之旅》 — Hexo&source=" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://yoursite.com/2020/06/29/hexo+github%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E6%97%85/&title=《hexo+github 个人博客搭建之旅》 — Dreamlivemeng's Blog&source=" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
@@ -482,7 +506,7 @@ git命令提交代码
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《hexo+github 个人博客搭建之旅》 — Hexo&url=http://yoursite.com/2020/06/29/hexo+github%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E6%97%85/&via=http://yoursite.com" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《hexo+github 个人博客搭建之旅》 — Dreamlivemeng's Blog&url=http://yoursite.com/2020/06/29/hexo+github%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E6%97%85/&via=http://yoursite.com" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
